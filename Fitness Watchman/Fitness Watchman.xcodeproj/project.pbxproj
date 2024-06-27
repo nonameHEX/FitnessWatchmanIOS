@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30C4DE82BEA394E0036ED4D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DE72BEA394E0036ED4D /* DashboardView.swift */; };
+		C30C4DEB2BEA39890036ED4D /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DEA2BEA39890036ED4D /* JournalView.swift */; };
+		C30C4DED2BEA3B050036ED4D /* SessionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DEC2BEA3B050036ED4D /* SessionListView.swift */; };
+		C30C4DEF2BEA41F20036ED4D /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DEE2BEA41F20036ED4D /* Exercise.swift */; };
+		C30C4DF12BEA41FD0036ED4D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DF02BEA41FD0036ED4D /* Session.swift */; };
+		C30C4DF32BEA42410036ED4D /* JournalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DF22BEA42410036ED4D /* JournalRecord.swift */; };
+		C30C4DF52BEA425D0036ED4D /* Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DF42BEA425D0036ED4D /* Gym.swift */; };
+		C30C4DFB2BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DF92BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld */; };
+		C30C4DFE2BEA5C4B0036ED4D /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DFD2BEA5C4B0036ED4D /* ExerciseDetailView.swift */; };
+		C30C4E002BED72A70036ED4D /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DFF2BED72A70036ED4D /* CoreDataController.swift */; };
+		C30C4E022BED7B210036ED4D /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4E012BED7B210036ED4D /* DashboardViewModel.swift */; };
+		C30C4E042BED7B2F0036ED4D /* SessionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4E032BED7B2F0036ED4D /* SessionListViewModel.swift */; };
+		C30C4E092BED7B8E0036ED4D /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4E082BED7B8E0036ED4D /* JournalViewModel.swift */; };
+		C30C4E0C2BED7BB10036ED4D /* OptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4E0B2BED7BB10036ED4D /* OptionsViewModel.swift */; };
+		C30C4E0E2BED7BC80036ED4D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4E0D2BED7BC80036ED4D /* LocationManager.swift */; };
+		C30C4E102BED7D2A0036ED4D /* RoutineListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4E0F2BED7D2A0036ED4D /* RoutineListViewModel.swift */; };
+		C3609DB82C15C7EE0011C938 /* MapItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3609DB72C15C7EE0011C938 /* MapItemDetailView.swift */; };
+		C36EB6E82C11CB260001B9F2 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36EB6E72C11CB260001B9F2 /* CoreDataService.swift */; };
+		C36EB6EF2C11E1810001B9F2 /* TextFieldWithClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36EB6EE2C11E1810001B9F2 /* TextFieldWithClearButton.swift */; };
+		C3878F052C13905600FD7FA5 /* EditRoutineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3878F042C13905600FD7FA5 /* EditRoutineListView.swift */; };
+		C3878F092C14D0D800FD7FA5 /* JournalRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3878F082C14D0D800FD7FA5 /* JournalRecordView.swift */; };
+		C39437BA2BD7AA44007F160F /* Fitness_WatchmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39437B92BD7AA44007F160F /* Fitness_WatchmanApp.swift */; };
+		C39437BC2BD7AA44007F160F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39437BB2BD7AA44007F160F /* ContentView.swift */; };
+		C39437BE2BD7AA45007F160F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39437BD2BD7AA45007F160F /* Assets.xcassets */; };
+		C39437C12BD7AA45007F160F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39437C02BD7AA45007F160F /* Preview Assets.xcassets */; };
+		C39437DA2BD7AC09007F160F /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39437D92BD7AC09007F160F /* OptionsView.swift */; };
+		C39437DF2BD7AC76007F160F /* RoutineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39437DE2BD7AC76007F160F /* RoutineListView.swift */; };
+		C3E32E922C19B3F200311C8D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C3E32E912C19B3F200311C8D /* Lottie */; };
+		C3E32E962C19B71400311C8D /* MapPin.json in Resources */ = {isa = PBXBuildFile; fileRef = C3E32E952C19B71400311C8D /* MapPin.json */; };
+		C3E32E982C19B8DB00311C8D /* Dumbbell.json in Resources */ = {isa = PBXBuildFile; fileRef = C3E32E972C19B8DB00311C8D /* Dumbbell.json */; };
+		C3E32EB72C19CF8000311C8D /* WeeklyResetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E32EB62C19CF8000311C8D /* WeeklyResetManager.swift */; };
+		C3E32EB92C1A267800311C8D /* ExerciseChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E32EB82C1A267800311C8D /* ExerciseChart.swift */; };
+		C3E56DC92BD7C7EB00042D12 /* LaunchScreenView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E56DC82BD7C7EB00042D12 /* LaunchScreenView.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C30C4DE72BEA394E0036ED4D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C30C4DEA2BEA39890036ED4D /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		C30C4DEC2BEA3B050036ED4D /* SessionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListView.swift; sourceTree = "<group>"; };
+		C30C4DEE2BEA41F20036ED4D /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		C30C4DF02BEA41FD0036ED4D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		C30C4DF22BEA42410036ED4D /* JournalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRecord.swift; sourceTree = "<group>"; };
+		C30C4DF42BEA425D0036ED4D /* Gym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym.swift; sourceTree = "<group>"; };
+		C30C4DFA2BEA43B80036ED4D /* FitnessWatchman.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessWatchman.xcdatamodel; sourceTree = "<group>"; };
+		C30C4DFD2BEA5C4B0036ED4D /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
+		C30C4DFF2BED72A70036ED4D /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		C30C4E012BED7B210036ED4D /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		C30C4E032BED7B2F0036ED4D /* SessionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionListViewModel.swift; sourceTree = "<group>"; };
+		C30C4E082BED7B8E0036ED4D /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		C30C4E0B2BED7BB10036ED4D /* OptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewModel.swift; sourceTree = "<group>"; };
+		C30C4E0D2BED7BC80036ED4D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C30C4E0F2BED7D2A0036ED4D /* RoutineListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineListViewModel.swift; sourceTree = "<group>"; };
+		C3609DB72C15C7EE0011C938 /* MapItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapItemDetailView.swift; sourceTree = "<group>"; };
+		C36EB6E72C11CB260001B9F2 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		C36EB6EE2C11E1810001B9F2 /* TextFieldWithClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithClearButton.swift; sourceTree = "<group>"; };
+		C3878F042C13905600FD7FA5 /* EditRoutineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRoutineListView.swift; sourceTree = "<group>"; };
+		C3878F082C14D0D800FD7FA5 /* JournalRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRecordView.swift; sourceTree = "<group>"; };
+		C39437B62BD7AA44007F160F /* Fitness Watchman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Watchman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39437B92BD7AA44007F160F /* Fitness_WatchmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_WatchmanApp.swift; sourceTree = "<group>"; };
+		C39437BB2BD7AA44007F160F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C39437BD2BD7AA45007F160F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C39437C02BD7AA45007F160F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C39437D92BD7AC09007F160F /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		C39437DE2BD7AC76007F160F /* RoutineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineListView.swift; sourceTree = "<group>"; };
+		C3E32E952C19B71400311C8D /* MapPin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapPin.json; sourceTree = "<group>"; };
+		C3E32E972C19B8DB00311C8D /* Dumbbell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dumbbell.json; sourceTree = "<group>"; };
+		C3E32EB62C19CF8000311C8D /* WeeklyResetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyResetManager.swift; sourceTree = "<group>"; };
+		C3E32EB82C1A267800311C8D /* ExerciseChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseChart.swift; sourceTree = "<group>"; };
+		C3E56DC82BD7C7EB00042D12 /* LaunchScreenView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenView.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39437B32BD7AA44007F160F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E32E922C19B3F200311C8D /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30C4DE92BEA39720036ED4D /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4DEA2BEA39890036ED4D /* JournalView.swift */,
+				C3878F082C14D0D800FD7FA5 /* JournalRecordView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		C30C4DFC2BEA5C250036ED4D /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4DFD2BEA5C4B0036ED4D /* ExerciseDetailView.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		C30C4E052BED7B380036ED4D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4E012BED7B210036ED4D /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C30C4E062BED7B470036ED4D /* SessionList */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4E032BED7B2F0036ED4D /* SessionListViewModel.swift */,
+				C30C4E0F2BED7D2A0036ED4D /* RoutineListViewModel.swift */,
+			);
+			path = SessionList;
+			sourceTree = "<group>";
+		};
+		C30C4E072BED7B630036ED4D /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4E082BED7B8E0036ED4D /* JournalViewModel.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		C30C4E0A2BED7B940036ED4D /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4E0B2BED7BB10036ED4D /* OptionsViewModel.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		C36EB6EB2C11E13A0001B9F2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C36EB6EE2C11E1810001B9F2 /* TextFieldWithClearButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C39437AD2BD7AA44007F160F = {
+			isa = PBXGroup;
+			children = (
+				C39437B82BD7AA44007F160F /* Fitness Watchman */,
+				C39437B72BD7AA44007F160F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39437B72BD7AA44007F160F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39437B62BD7AA44007F160F /* Fitness Watchman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39437B82BD7AA44007F160F /* Fitness Watchman */ = {
+			isa = PBXGroup;
+			children = (
+				C3E32E932C19B6E300311C8D /* Supporting files */,
+				C39437CA2BD7AA81007F160F /* Services */,
+				C39437C92BD7AA7A007F160F /* ViewModel */,
+				C39437C82BD7AA74007F160F /* View */,
+				C39437C72BD7AA6C007F160F /* Model */,
+				C39437B92BD7AA44007F160F /* Fitness_WatchmanApp.swift */,
+				C39437BB2BD7AA44007F160F /* ContentView.swift */,
+				C39437BD2BD7AA45007F160F /* Assets.xcassets */,
+				C39437BF2BD7AA45007F160F /* Preview Content */,
+			);
+			path = "Fitness Watchman";
+			sourceTree = "<group>";
+		};
+		C39437BF2BD7AA45007F160F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C39437C02BD7AA45007F160F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C39437C72BD7AA6C007F160F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4DF02BEA41FD0036ED4D /* Session.swift */,
+				C30C4DEE2BEA41F20036ED4D /* Exercise.swift */,
+				C30C4DF22BEA42410036ED4D /* JournalRecord.swift */,
+				C30C4DF42BEA425D0036ED4D /* Gym.swift */,
+				C30C4DF92BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld */,
+				C3E32EB82C1A267800311C8D /* ExerciseChart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C39437C82BD7AA74007F160F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C36EB6EB2C11E13A0001B9F2 /* Components */,
+				C39437D12BD7ABBB007F160F /* Dashboard */,
+				C39437CE2BD7AB92007F160F /* SessionList */,
+				C30C4DE92BEA39720036ED4D /* Journal */,
+				C39437D22BD7ABC2007F160F /* Options */,
+				C3E56DC82BD7C7EB00042D12 /* LaunchScreenView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C39437C92BD7AA7A007F160F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4E052BED7B380036ED4D /* Dashboard */,
+				C30C4E062BED7B470036ED4D /* SessionList */,
+				C30C4E072BED7B630036ED4D /* Journal */,
+				C30C4E0A2BED7B940036ED4D /* Options */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C39437CA2BD7AA81007F160F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4E0D2BED7BC80036ED4D /* LocationManager.swift */,
+				C30C4DFF2BED72A70036ED4D /* CoreDataController.swift */,
+				C36EB6E72C11CB260001B9F2 /* CoreDataService.swift */,
+				C3E32EB62C19CF8000311C8D /* WeeklyResetManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C39437CE2BD7AB92007F160F /* SessionList */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4DEC2BEA3B050036ED4D /* SessionListView.swift */,
+				C39437DD2BD7AC4B007F160F /* RoutineList */,
+			);
+			path = SessionList;
+			sourceTree = "<group>";
+		};
+		C39437D12BD7ABBB007F160F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				C30C4DE72BEA394E0036ED4D /* DashboardView.swift */,
+				C3609DB72C15C7EE0011C938 /* MapItemDetailView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C39437D22BD7ABC2007F160F /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				C39437D92BD7AC09007F160F /* OptionsView.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		C39437DD2BD7AC4B007F160F /* RoutineList */ = {
+			isa = PBXGroup;
+			children = (
+				C39437DE2BD7AC76007F160F /* RoutineListView.swift */,
+				C3878F042C13905600FD7FA5 /* EditRoutineListView.swift */,
+				C30C4DFC2BEA5C250036ED4D /* Exercise */,
+			);
+			path = RoutineList;
+			sourceTree = "<group>";
+		};
+		C3E32E932C19B6E300311C8D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E32E942C19B6F200311C8D /* Animations */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C3E32E942C19B6F200311C8D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C3E32E972C19B8DB00311C8D /* Dumbbell.json */,
+				C3E32E952C19B71400311C8D /* MapPin.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39437B52BD7AA44007F160F /* Fitness Watchman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39437C42BD7AA45007F160F /* Build configuration list for PBXNativeTarget "Fitness Watchman" */;
+			buildPhases = (
+				C39437B22BD7AA44007F160F /* Sources */,
+				C39437B32BD7AA44007F160F /* Frameworks */,
+				C39437B42BD7AA44007F160F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness Watchman";
+			packageProductDependencies = (
+				C3E32E912C19B3F200311C8D /* Lottie */,
+			);
+			productName = "Fitness Watchman";
+			productReference = C39437B62BD7AA44007F160F /* Fitness Watchman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39437AE2BD7AA44007F160F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C39437B52BD7AA44007F160F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C39437B12BD7AA44007F160F /* Build configuration list for PBXProject "Fitness Watchman" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C39437AD2BD7AA44007F160F;
+			packageReferences = (
+				C3E32E902C19B3F100311C8D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = C39437B72BD7AA44007F160F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39437B52BD7AA44007F160F /* Fitness Watchman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39437B42BD7AA44007F160F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39437C12BD7AA45007F160F /* Preview Assets.xcassets in Resources */,
+				C39437BE2BD7AA45007F160F /* Assets.xcassets in Resources */,
+				C3E56DC92BD7C7EB00042D12 /* LaunchScreenView.storyboard in Resources */,
+				C3E32E982C19B8DB00311C8D /* Dumbbell.json in Resources */,
+				C3E32E962C19B71400311C8D /* MapPin.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39437B22BD7AA44007F160F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E32EB92C1A267800311C8D /* ExerciseChart.swift in Sources */,
+				C36EB6EF2C11E1810001B9F2 /* TextFieldWithClearButton.swift in Sources */,
+				C30C4DF52BEA425D0036ED4D /* Gym.swift in Sources */,
+				C30C4E042BED7B2F0036ED4D /* SessionListViewModel.swift in Sources */,
+				C39437BC2BD7AA44007F160F /* ContentView.swift in Sources */,
+				C30C4DEF2BEA41F20036ED4D /* Exercise.swift in Sources */,
+				C30C4DFE2BEA5C4B0036ED4D /* ExerciseDetailView.swift in Sources */,
+				C30C4DE82BEA394E0036ED4D /* DashboardView.swift in Sources */,
+				C39437DA2BD7AC09007F160F /* OptionsView.swift in Sources */,
+				C36EB6E82C11CB260001B9F2 /* CoreDataService.swift in Sources */,
+				C30C4E0C2BED7BB10036ED4D /* OptionsViewModel.swift in Sources */,
+				C3878F052C13905600FD7FA5 /* EditRoutineListView.swift in Sources */,
+				C30C4E022BED7B210036ED4D /* DashboardViewModel.swift in Sources */,
+				C3878F092C14D0D800FD7FA5 /* JournalRecordView.swift in Sources */,
+				C30C4E092BED7B8E0036ED4D /* JournalViewModel.swift in Sources */,
+				C30C4DEB2BEA39890036ED4D /* JournalView.swift in Sources */,
+				C3609DB82C15C7EE0011C938 /* MapItemDetailView.swift in Sources */,
+				C30C4DED2BEA3B050036ED4D /* SessionListView.swift in Sources */,
+				C30C4DFB2BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld in Sources */,
+				C30C4DF32BEA42410036ED4D /* JournalRecord.swift in Sources */,
+				C30C4E002BED72A70036ED4D /* CoreDataController.swift in Sources */,
+				C39437DF2BD7AC76007F160F /* RoutineListView.swift in Sources */,
+				C39437BA2BD7AA44007F160F /* Fitness_WatchmanApp.swift in Sources */,
+				C3E32EB72C19CF8000311C8D /* WeeklyResetManager.swift in Sources */,
+				C30C4E0E2BED7BC80036ED4D /* LocationManager.swift in Sources */,
+				C30C4DF12BEA41FD0036ED4D /* Session.swift in Sources */,
+				C30C4E102BED7D2A0036ED4D /* RoutineListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C39437C22BD7AA45007F160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C39437C32BD7AA45007F160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C39437C52BD7AA45007F160F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Watchman/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fitness-Watchman-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Potřebuji vaši polohu pro vyhledání posiloven v okolí";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreenView.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mendelu.cz.Fitness-Watchman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C39437C62BD7AA45007F160F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Watchman/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fitness-Watchman-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Potřebuji vaši polohu pro vyhledání posiloven v okolí";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreenView.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mendelu.cz.Fitness-Watchman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39437B12BD7AA44007F160F /* Build configuration list for PBXProject "Fitness Watchman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39437C22BD7AA45007F160F /* Debug */,
+				C39437C32BD7AA45007F160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39437C42BD7AA45007F160F /* Build configuration list for PBXNativeTarget "Fitness Watchman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39437C52BD7AA45007F160F /* Debug */,
+				C39437C62BD7AA45007F160F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3E32E902C19B3F100311C8D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3E32E912C19B3F200311C8D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3E32E902C19B3F100311C8D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C30C4DF92BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C30C4DFA2BEA43B80036ED4D /* FitnessWatchman.xcdatamodel */,
+			);
+			currentVersion = C30C4DFA2BEA43B80036ED4D /* FitnessWatchman.xcdatamodel */;
+			name = FitnessWatchman.xcdatamodeld;
+			path = "/Users/tomas/Desktop/vi1_ls24_xkudera/Fitness Watchman/Fitness Watchman/Model/FitnessWatchman.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C39437AE2BD7AA44007F160F /* Project object */;
+}
