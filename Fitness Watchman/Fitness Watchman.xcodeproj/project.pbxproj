@@ -14,7 +14,6 @@
 		C30C4DF12BEA41FD0036ED4D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DF02BEA41FD0036ED4D /* Session.swift */; };
 		C30C4DF32BEA42410036ED4D /* JournalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DF22BEA42410036ED4D /* JournalRecord.swift */; };
 		C30C4DF52BEA425D0036ED4D /* Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DF42BEA425D0036ED4D /* Gym.swift */; };
-		C30C4DFB2BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DF92BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld */; };
 		C30C4DFE2BEA5C4B0036ED4D /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DFD2BEA5C4B0036ED4D /* ExerciseDetailView.swift */; };
 		C30C4E002BED72A70036ED4D /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4DFF2BED72A70036ED4D /* CoreDataController.swift */; };
 		C30C4E022BED7B210036ED4D /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C4E012BED7B210036ED4D /* DashboardViewModel.swift */; };
@@ -34,6 +33,7 @@
 		C39437C12BD7AA45007F160F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39437C02BD7AA45007F160F /* Preview Assets.xcassets */; };
 		C39437DA2BD7AC09007F160F /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39437D92BD7AC09007F160F /* OptionsView.swift */; };
 		C39437DF2BD7AC76007F160F /* RoutineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39437DE2BD7AC76007F160F /* RoutineListView.swift */; };
+		C3C2DF4E2CFF70E3003EE944 /* Fitness Watchman.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3C2DF4C2CFF70E3003EE944 /* Fitness Watchman.xcdatamodeld */; };
 		C3E32E922C19B3F200311C8D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C3E32E912C19B3F200311C8D /* Lottie */; };
 		C3E32E962C19B71400311C8D /* MapPin.json in Resources */ = {isa = PBXBuildFile; fileRef = C3E32E952C19B71400311C8D /* MapPin.json */; };
 		C3E32E982C19B8DB00311C8D /* Dumbbell.json in Resources */ = {isa = PBXBuildFile; fileRef = C3E32E972C19B8DB00311C8D /* Dumbbell.json */; };
@@ -50,7 +50,6 @@
 		C30C4DF02BEA41FD0036ED4D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		C30C4DF22BEA42410036ED4D /* JournalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRecord.swift; sourceTree = "<group>"; };
 		C30C4DF42BEA425D0036ED4D /* Gym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym.swift; sourceTree = "<group>"; };
-		C30C4DFA2BEA43B80036ED4D /* FitnessWatchman.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessWatchman.xcdatamodel; sourceTree = "<group>"; };
 		C30C4DFD2BEA5C4B0036ED4D /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
 		C30C4DFF2BED72A70036ED4D /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
 		C30C4E012BED7B210036ED4D /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
@@ -71,6 +70,7 @@
 		C39437C02BD7AA45007F160F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C39437D92BD7AC09007F160F /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 		C39437DE2BD7AC76007F160F /* RoutineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineListView.swift; sourceTree = "<group>"; };
+		C3C2DF4D2CFF70E3003EE944 /* Fitness Watchman.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Fitness Watchman.xcdatamodel"; sourceTree = "<group>"; };
 		C3E32E952C19B71400311C8D /* MapPin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapPin.json; sourceTree = "<group>"; };
 		C3E32E972C19B8DB00311C8D /* Dumbbell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dumbbell.json; sourceTree = "<group>"; };
 		C3E32EB62C19CF8000311C8D /* WeeklyResetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyResetManager.swift; sourceTree = "<group>"; };
@@ -195,8 +195,8 @@
 				C30C4DEE2BEA41F20036ED4D /* Exercise.swift */,
 				C30C4DF22BEA42410036ED4D /* JournalRecord.swift */,
 				C30C4DF42BEA425D0036ED4D /* Gym.swift */,
-				C30C4DF92BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld */,
 				C3E32EB82C1A267800311C8D /* ExerciseChart.swift */,
+				C3C2DF4C2CFF70E3003EE944 /* Fitness Watchman.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -386,7 +386,7 @@
 				C30C4DEB2BEA39890036ED4D /* JournalView.swift in Sources */,
 				C3609DB82C15C7EE0011C938 /* MapItemDetailView.swift in Sources */,
 				C30C4DED2BEA3B050036ED4D /* SessionListView.swift in Sources */,
-				C30C4DFB2BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld in Sources */,
+				C3C2DF4E2CFF70E3003EE944 /* Fitness Watchman.xcdatamodeld in Sources */,
 				C30C4DF32BEA42410036ED4D /* JournalRecord.swift in Sources */,
 				C30C4E002BED72A70036ED4D /* CoreDataController.swift in Sources */,
 				C39437DF2BD7AC76007F160F /* RoutineListView.swift in Sources */,
@@ -627,14 +627,14 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		C30C4DF92BEA43B80036ED4D /* FitnessWatchman.xcdatamodeld */ = {
+		C3C2DF4C2CFF70E3003EE944 /* Fitness Watchman.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C30C4DFA2BEA43B80036ED4D /* FitnessWatchman.xcdatamodel */,
+				C3C2DF4D2CFF70E3003EE944 /* Fitness Watchman.xcdatamodel */,
 			);
-			currentVersion = C30C4DFA2BEA43B80036ED4D /* FitnessWatchman.xcdatamodel */;
-			name = FitnessWatchman.xcdatamodeld;
-			path = "/Users/tomas/Desktop/vi1_ls24_xkudera/Fitness Watchman/Fitness Watchman/Model/FitnessWatchman.xcdatamodeld";
+			currentVersion = C3C2DF4D2CFF70E3003EE944 /* Fitness Watchman.xcdatamodel */;
+			name = "Fitness Watchman.xcdatamodeld";
+			path = "/Users/tomas/Desktop/FitnessWatchmanIOS/Fitness Watchman/Fitness Watchman/Model/Fitness Watchman.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
